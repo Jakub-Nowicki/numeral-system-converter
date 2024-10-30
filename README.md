@@ -33,9 +33,17 @@ This will start the Flask server on `localhost:5000`. Open your web browser and 
 
 ## Website: 
 
-<img width="300" alt="Screenshot 2024-10-30 at 11 35 13" src="https://github.com/user-attachments/assets/f781d793-f243-423f-9401-9e8c1df77c6a">
-<img width="300" alt="Screenshot 2024-10-30 at 11 35 23" src="https://github.com/user-attachments/assets/275bfd88-6d86-459f-9eae-1fd149b513ec">
-<img width="300" alt="Screenshot 2024-10-30 at 11 35 38" src="https://github.com/user-attachments/assets/15c51bf5-e6b3-4d97-979e-78ecd0c1a47b">
+[//]: # (<img width="300" alt="Screenshot 2024-10-30 at 11 35 13" src="https://github.com/user-attachments/assets/f781d793-f243-423f-9401-9e8c1df77c6a">)
+
+[//]: # (<img width="300" alt="Screenshot 2024-10-30 at 11 35 23" src="https://github.com/user-attachments/assets/275bfd88-6d86-459f-9eae-1fd149b513ec">)
+
+[//]: # (<img width="300" alt="Screenshot 2024-10-30 at 11 35 38" src="https://github.com/user-attachments/assets/15c51bf5-e6b3-4d97-979e-78ecd0c1a47b">)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f781d793-f243-423f-9401-9e8c1df77c6a" alt="Screenshot 2024-10-30 at 11 35 13" width="33%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/275bfd88-6d86-459f-9eae-1fd149b513ec" alt="Screenshot 2024-10-30 at 11 35 23" width="33%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/15c51bf5-e6b3-4d97-979e-78ecd0c1a47b" alt="Screenshot 2024-10-30 at 11 35 38" width="33%"/>
+</p>
 
 ## Usage
 
