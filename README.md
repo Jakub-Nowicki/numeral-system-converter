@@ -31,6 +31,12 @@ To run this application locally, you'll need Python and Flask. Follow these step
 
 This will start the Flask server on `localhost:5000`. Open your web browser and navigate to [http://localhost:5000](http://localhost:5000) to use the application.
 
+## Website: 
+
+<img width="330" alt="Screenshot 2024-10-30 at 11 35 13" src="https://github.com/user-attachments/assets/f781d793-f243-423f-9401-9e8c1df77c6a">
+<img width="330" alt="Screenshot 2024-10-30 at 11 35 23" src="https://github.com/user-attachments/assets/275bfd88-6d86-459f-9eae-1fd149b513ec">
+<img width="330" alt="Screenshot 2024-10-30 at 11 35 38" src="https://github.com/user-attachments/assets/15c51bf5-e6b3-4d97-979e-78ecd0c1a47b">
+
 ## Usage
 
 - **Convert Decimal to Base**: Enter a decimal number and select the target base to see the equivalent value in the chosen base.
