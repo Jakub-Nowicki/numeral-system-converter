@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<body>
+    <style>
+
+body, html {
+    height: 80%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.converter-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.form-group input, .form-group select {
+    width: 100%; 
+    box-sizing: border-box; 
+    height: 50px;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #e9ecef;
+}
+.form-group input:focus, .form-group select:focus {
+    outline: none; /* Removes the default outline */
+    border-color: #ff6b6b; /* Sets the border color to match the button */
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.5); /* Adds a shadow that matches the button color */
+}
+
+
+.base-and-convert {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; 
+}
+
+.convert-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ff6b6b; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.convert-btn:hover {
+    background-color: #ff4757; 
+}
+
+
+    </style>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
+<style>
+   

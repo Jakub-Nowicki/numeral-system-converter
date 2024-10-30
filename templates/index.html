@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="converter-container">
+    <h1>Number Converter</h1>
+    <form action="/" method="post"> <!-- Open the form tag here -->
+        <div class="form-group">
+            <label for="num_dec">Decimal Number:</label>
+            <input type="text" id="num_dec" name="num_dec" value="{{ num_dec }}" placeholder="Enter decimal number">
+        </div>
+
+        <div class="form-group">
+            <label for="num_base">Number in Base {{base}}</label>
+            <input type="text" id="num_base" name="num_base" value="{{ num_base }}" placeholder="Enter number in base">
+        </div>
+
+        <div class="form-group base-select">
+            <label for="base">Base:</label>
+            <select id="base" name="base" value="{{base}}">
+                {% for i in range(2, 17) %}
+                <option value="{{i}}" {% if base == i %} selected {% endif %}>{{i}}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <button type="submit" class="convert-btn">Convert</button>
+    </form> <!-- Close the form tag here -->
+</div>
+{% endblock %}
