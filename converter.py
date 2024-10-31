@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-#change test
+
 def convert_to_decimal(num, base):
     num = list(num)[::-1]
     ans = 0
